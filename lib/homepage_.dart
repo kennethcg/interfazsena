@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(15),
                   child: Image.asset(
-                    "assets/imagenes/tigre.jpeg",
+                    "assets/imagenes/tigre.jpg", // <-- CORREGIDO
                     width: 250,
                     height: 200,
                     fit: BoxFit.cover,
@@ -63,9 +63,7 @@ class HomePage extends StatelessWidget {
                     child: Column(
                       children: const [
                         Icon(Icons.school, size: 70, color: Colors.green),
-
                         SizedBox(height: 10),
-
                         Text(
                           "Proyecto Flutter",
                           style: TextStyle(
@@ -73,16 +71,12 @@ class HomePage extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-
                         SizedBox(height: 10),
-
                         Text(
                           "Primera Interfaz Gráfica",
                           style: TextStyle(fontSize: 18),
                         ),
-
                         SizedBox(height: 5),
-
                         Text("Aprendiz ADSO", style: TextStyle(fontSize: 18)),
                       ],
                     ),
