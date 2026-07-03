@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(15),
                   child: Image.asset(
-                    "assets/imagenes/tigre.jpg", // <-- CORREGIDO
+                    "assets/imagenes/tigre.jpg",
                     width: 250,
                     height: 200,
                     fit: BoxFit.cover,
@@ -63,7 +63,9 @@ class HomePage extends StatelessWidget {
                     child: Column(
                       children: const [
                         Icon(Icons.school, size: 70, color: Colors.green),
-                        SizedBox(height: 10),
+
+                        SizedBox(height: 15),
+
                         Text(
                           "Proyecto Flutter",
                           style: TextStyle(
@@ -71,13 +73,38 @@ class HomePage extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
+
                         SizedBox(height: 10),
+
                         Text(
                           "Primera Interfaz Gráfica",
                           style: TextStyle(fontSize: 18),
                         ),
-                        SizedBox(height: 5),
+
+                        SizedBox(height: 10),
+
                         Text("Aprendiz ADSO", style: TextStyle(fontSize: 18)),
+
+                        Divider(height: 30),
+
+                        Text(
+                          "Integrantes",
+                          style: TextStyle(
+                            fontSize: 19,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+
+                        SizedBox(height: 10),
+
+                        Text(
+                          "Kenneth Santiago Correal",
+                          style: TextStyle(fontSize: 18),
+                        ),
+
+                        SizedBox(height: 5),
+
+                        Text("Jhon Lemus", style: TextStyle(fontSize: 18)),
                       ],
                     ),
                   ),
